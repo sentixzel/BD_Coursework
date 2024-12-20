@@ -153,6 +153,8 @@ namespace BD_Coursework
             double C3 = 0;
             double F;
 
+
+
             //calc
 
             F = Math.Pow(10, 3) * Moshnost * Skorost;
@@ -276,7 +278,7 @@ namespace BD_Coursework
                 }
             }
 
-            //dF0 *= Math.Pow(10, 6);
+            dF0 *= Math.Pow(10, 6);
 
             double C1 = 0;
             if (Ugol <= 70) C1 = 0.56;
