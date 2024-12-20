@@ -280,7 +280,7 @@ namespace BD_Coursework
 
             dF0 *= Math.Pow(10, 6);
 
-            double C1 = 0;
+            double C1;
             if (Ugol <= 70) C1 = 0.56;
             else if (Ugol <= 80) C1 = 0.62;
             else if (Ugol <= 90) C1 = 0.68;
